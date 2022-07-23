@@ -1,9 +1,14 @@
-baseURL = "http://example.org/"
+baseURL = "http://Kanon159.github.io/blog/"
 title = "チラ裏"
+theme = "mainroad"
+
+publishDir = "docs"
+canonifyurls = false
+
 languageCode = "ja"
 defaultContentLanguage = "ja"
-theme = "mainroad"
-paginate = "10"
+
+paginate = 6
 hasCJKLanguage = true
 summaryLength = 80
 
@@ -13,7 +18,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 [Author]
   name = "Kanon"
   bio = "Webアプリケーションエンジニアみたいなことをやってます。"
-  avatar = "img/avatar.png"
+# avatar = "img/avatar.png"
 
 [[Menus.main]]
   identifier = "home"
@@ -36,21 +41,21 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   tag = 'tags'
 
 [Params]
-  description = "主に技術代わりのメモを残していく奴" # Description of your site
+  description = "主に技術まわりのメモを残していく奴"
   copyright = "Kanon159"
   opengraph = true
 # schema = true # Enable Schema
   twitter_cards = false
-  readmore = false # Show "Read more" button in list if true
+  readmore = true
   authorbox = false
-  toc = false # 目次
+  toc = false # 記事内の目次
   pager = true
   post_meta = ["date", "categories"] # Order of post meta information
   mainSections = ["posts"]
   dateformat = "2006-01-02" # Change the format of dates
 # mathjax = true # Enable MathJax
-#  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
-#  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+# mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+# mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
   googleFontsLink = "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&display=swap"
 # customCSS = ["css/custom.css"] # Include custom CSS files
 # customJS = ["js/custom.js"] # Include custom JS files
