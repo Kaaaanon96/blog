@@ -1,0 +1,108 @@
+baseURL = "http://example.org/"
+title = "チラ裏"
+languageCode = "ja"
+defaultContentLanguage = "ja"
+theme = "mainroad"
+paginate = "10"
+hasCJKLanguage = true
+summaryLength = 80
+
+disqusShortname = "" # Enable comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+[Author]
+  name = "Kanon"
+  bio = "Webアプリケーションエンジニアみたいなことをやってます。"
+  avatar = "img/avatar.png"
+
+[[Menus.main]]
+  identifier = "home"
+  Name = "Home"
+  URL = '/'
+  weight = 1
+[[Menus.main]]
+  identifier = "posts"
+  Name = "Posts"
+  URL = "/posts/"
+  weight = 2
+[[Menus.main]]
+  identifier = "about"
+  Name = "About"
+  URL = '/about'
+  weight = 3
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+[Params]
+  description = "主に技術代わりのメモを残していく奴" # Description of your site
+  copyright = "Kanon159"
+  opengraph = true
+# schema = true # Enable Schema
+  twitter_cards = false
+  readmore = false # Show "Read more" button in list if true
+  authorbox = false
+  toc = false # 目次
+  pager = true
+  post_meta = ["date", "categories"] # Order of post meta information
+  mainSections = ["posts"]
+  dateformat = "2006-01-02" # Change the format of dates
+# mathjax = true # Enable MathJax
+#  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+#  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  googleFontsLink = "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&display=swap"
+# customCSS = ["css/custom.css"] # Include custom CSS files
+# customJS = ["js/custom.js"] # Include custom JS files
+
+[Params.style.vars]
+  highlightColor = "#D1D392"
+
+  # Override font-family sets
+  # Take care of different quotes OR escaping symbols in these params if necessary
+  fontFamilyPrimary = "'Noto Sans JP', 'Open Sans', Helvetica, Arial, sans-serif"
+  # Secondary font-family set responsible for pre, code, kbd, and samp tags font
+  fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+
+# [Params.logo]
+#   image = "img/placeholder.png" # Logo image. Path relative to "static"
+#   title = "Mainroad" # Logo title, otherwise will use site title
+#   subtitle = "" # Logo subtitle
+
+[Params.sidebar]
+  home = "right"   # Configure layout for home page
+  list = "right"   # Configure layout for list pages
+  single = "right" # Configure layout for single pages
+  # Enable widgets in given order
+  # widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+  widgets = ["recent", "categories", "taglist"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  tags_counter = true # Enable counter for each tag in "Tags" widget (disabled by default)
+  categories_counter = true # Enable counter for each category in "Categories" widget
+ 
+[Params.thumbnail]
+# visibility = ["list", "post"] # Control thumbnail visibility
+
+# [Params.widgets.social]
+#   # Enable parts of social widget
+#   facebook = "username"
+#   twitter = "username"
+#   instagram = "username"
+#   linkedin = "username"
+#   telegram = "username"
+#   github = "username"
+#   gitlab = "username"
+#   bitbucket = "username"
+#   email = "example@example.com"
+
+# Custom social links
+# [[Params.widgets.social.custom]]
+#   title = "Youtube"
+#   url = "https://youtube.com/user/username"
+#   icon = "youtube.svg" # Optional. Path relative to "layouts/partials"
+# 
+# [[Params.widgets.social.custom]]
+#   title = "My Home Page"
+#   url = "https://example.com"
