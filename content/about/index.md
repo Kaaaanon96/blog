@@ -21,7 +21,7 @@ description: ""
 
 - JavaScript
   - React Native
-  - Vue
+  - Vue.js
   - Fastify
 
 #### 個人で触った技術/言語
