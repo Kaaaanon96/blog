@@ -5,7 +5,6 @@ date: 2022-07-24T13:21:27+09:00
 categories: ["技術関連"]
 tags: ["Hugo"]
 
-type: posts
 <!-- draft: true -->
 
 ---
