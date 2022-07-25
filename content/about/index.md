@@ -1,7 +1,8 @@
 ---
 title: "About me"
 description: ""
-<!-- date: 2022-07-25T00:13:53+09:00 -->
+pager: false
+
 <!-- draft: true -->
 
 ---

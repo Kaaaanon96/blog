@@ -13,7 +13,7 @@ hasCJKLanguage = true
 summaryLength = 80
 
 disqusShortname = "" # Enable comments by entering your Disqus shortname
-googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+googleAnalytics = "G-HX0J3DN5S1" # Enable Google Analytics by entering your tracking id
 
 [Author]
   name = "Kanon"
@@ -35,6 +35,10 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   Name = "About"
   URL = '/about'
   weight = 3
+
+[[Menus.footer]]
+  Name = "プライバシーポリシー"
+  URL = "/privacy"
 
 [taxonomies]
   category = 'categories'
