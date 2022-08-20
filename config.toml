@@ -1,4 +1,4 @@
-baseURL = "http://Kanon159.github.io/blog/"
+baseURL = "http://Kaaaanon96.github.io/blog/"
 title = "チラ裏"
 theme = "mainroad"
 
@@ -46,7 +46,7 @@ googleAnalytics = "G-HX0J3DN5S1" # Enable Google Analytics by entering your trac
 
 [Params]
   description = "主に技術まわりのメモを残していく奴"
-  copyright = "Kanon159"
+  copyright = "Kaaaanon96"
   opengraph = true
 # schema = true # Enable Schema
   twitter_cards = false
